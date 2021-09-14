@@ -1,0 +1,161 @@
+body {
+  color: #132b33;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #3bafb2;
+  font-size: 5.625rem;
+  font-family: "Roboto Slab", serif;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #31afb2;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #146d82;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+  color: #146d82;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #d8e3e6 6px;
+  border-bottom: none;
+  border-width: 5px;
+  margin: 100px auto;
+  width: 4%;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #494e5e;
+  margin-bottom: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.intro {
+  margin: auto;
+  width: 100%;
+}
+
+.hobby {
+  font-weight: bold;
+  color: #3bafb2;
+}
+
+.skill-row {
+  margin: 75px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.teamwork-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.reward-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.profile {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 20px auto;
+}
+
+.contact-me-text {
+  margin: 30px auto 50px auto;
+  width: 40%;
+}
+
+.btn {
+  background-color: #31afb2;
+  border-radius: 5px;
+  color: white;
+  padding: .6rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #146d82;
+  border-radius: 5px;
+  color: white;
+  padding: .6rem;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #494e5e;
+  text-decoration: none;
+  padding: 50px 0 20px 0;
+  margin: 50px auto 0 auto;
+}
+
+.c-footer {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 50px;
+}
+
+.footer-link {
+  color: #31afb2;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #d8e3e6;
+  padding: 20px;
+  text-decoration: none;
+}
