@@ -35,16 +35,23 @@ p {
 hr {
   border: dotted #d8e3e6 6px;
   border-bottom: none;
-  border-width: 5px;
   margin: 100px auto;
   width: 4%;
 }
 
+.lists {
+  text-align: justify;
+}
+
 .top-container {
   position: relative;
-  padding-top: 100px;
+  padding: 30px 0px 10px 0px;
   background-color: #494e5e;
   margin-bottom: 50px;
+}
+
+.middle-container {
+  margin: 50px auto;
 }
 
 .intro {
@@ -61,6 +68,18 @@ hr {
   margin: 75px auto;
   text-align: left;
   width: 50%;
+}
+
+.comic-book-shelf {
+  margin: 33px 0px;
+  height: 450px;
+  width: 700px;
+}
+
+.top-comics {
+  height: 160px;
+  width: 100px;
+  float: left;
 }
 
 .coding-img {
@@ -92,10 +111,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-.middle-container {
-  margin: 100px auto;
 }
 
 .contact-me {
