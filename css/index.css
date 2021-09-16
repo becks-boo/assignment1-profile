@@ -20,12 +20,13 @@ h2 {
 
 h3 {
   color: #146d82;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 a {
   color: #146d82;
+  text-decoration: none;
 }
 
 p {
@@ -39,19 +40,30 @@ hr {
   width: 4%;
 }
 
-.lists {
-  text-align: justify;
-}
-
 .top-container {
+  padding: 10px 0px 10px 0px;
   position: relative;
-  padding: 30px 0px 10px 0px;
   background-color: #494e5e;
   margin-bottom: 50px;
 }
 
+figure {
+  color: #3bafb2;
+  font-size: 16px;
+  float: right;
+  margin-right: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 .middle-container {
   margin: 50px auto;
+}
+
+.middle-container a:hover {
+  color: #494e5e;
+  text-decoration: none;
 }
 
 .intro {
@@ -68,18 +80,6 @@ hr {
   margin: 75px auto;
   text-align: left;
   width: 50%;
-}
-
-.comic-book-shelf {
-  margin: 33px 0px;
-  height: 450px;
-  width: 700px;
-}
-
-.top-comics {
-  height: 160px;
-  width: 100px;
-  float: left;
 }
 
 .coding-img {
@@ -102,8 +102,8 @@ hr {
 
 .profile {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .profile-pic {
