@@ -3,6 +3,7 @@
 body {
   color: #132b33;
   font-family: "Poppins", sans-serif;
+  margin: 0;
   text-align: center;
 }
 
@@ -46,7 +47,26 @@ hr {
   padding: 10px 0px 10px 0px;
   position: relative;
   background-color: #494e5e;
-  margin-bottom: 50px;
+}
+
+#my-navbar {
+  background-color: #3bafb2;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: relative;
+  height: 5%;
+  width: 100%;
+}
+
+#my-navbar a {
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  text-align: center;
+}
+
+#my-navbar a:hover {
+  color: #d8e3e6;
 }
 
 /* Middle-Container */
@@ -91,7 +111,7 @@ hr {
 }
 
 .comic-book-shelf {
-  margin: 33px 0px;
+  margin: 0px;
   height: 450px;
   width: 700px;
 }
@@ -151,6 +171,36 @@ figure {
   float: right;
   width: 25%;
   margin-left: 30px;
+}
+
+.fav-learn {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 50% 50%;
+  margin: 50px auto;
+  width: 600px;
+}
+
+.learn-logo {
+  height: 120px;
+  width: 300px;
+}
+
+#backtotop {
+  background-color: #146d82;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  opacity: 0.6;
+  height: 40px;
+  width: 40px;
+}
+
+#backtotop:hover {
+  background-color: #132b33;
 }
 
 /*
@@ -235,6 +285,14 @@ th, td {
 
 /* Bottom-Container */
 
+.bottom-container {
+  background-color: #494e5e;
+  text-decoration: none;
+  position: relative;
+  padding: 50px 0 20px 0;
+  margin: 50px auto 0 auto;
+}
+
 .c-footer {
   color: white;
   font-size: 0.75rem;
@@ -251,11 +309,4 @@ th, td {
   color: #d8e3e6;
   padding: 20px;
   text-decoration: none;
-}
-
-.bottom-container {
-  background-color: #494e5e;
-  text-decoration: none;
-  padding: 50px 0 20px 0;
-  margin: 50px auto 0 auto;
 }
