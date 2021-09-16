@@ -1,3 +1,5 @@
+/* Top-Container */
+
 body {
   color: #132b33;
   font-family: "Poppins", sans-serif;
@@ -47,15 +49,7 @@ hr {
   margin-bottom: 50px;
 }
 
-figure {
-  color: #3bafb2;
-  font-size: 16px;
-  float: right;
-  margin-right: 10px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
+/* Middle-Container */
 
 .middle-container {
   margin: 50px auto;
@@ -67,7 +61,6 @@ figure {
 }
 
 .intro {
-  margin: auto;
   width: 100%;
 }
 
@@ -82,35 +75,10 @@ figure {
   width: 50%;
 }
 
-.coding-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.teamwork-img {
-  float: right;
-  width: 25%;
-  margin-left: 30px;
-}
-
-.reward-img {
-  float: left;
-  width: 25%;
-  margin-right: 30px;
-}
-
 .profile {
   display: inline-block;
   width: 300px;
   height: 300px;
-}
-
-.profile-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
 
 .contact-me {
@@ -121,6 +89,26 @@ figure {
   margin: 30px auto 50px auto;
   width: 40%;
 }
+
+.comic-book-shelf {
+  margin: 33px 0px;
+  height: 450px;
+  width: 700px;
+}
+
+/* Audio/Video files */
+
+figure {
+  color: #3bafb2;
+  font-size: 16px;
+  float: right;
+  margin-right: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/* Buttons */
 
 .btn {
   background-color: #31afb2;
@@ -138,12 +126,114 @@ figure {
   text-decoration: none;
 }
 
-.bottom-container {
-  background-color: #494e5e;
-  text-decoration: none;
-  padding: 50px 0 20px 0;
-  margin: 50px auto 0 auto;
+/* Images */
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.reward-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.teamwork-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+/*
+.top-comics-img {
+  height: 160px;
+  width: 100px;
+  float: left;
+}*/
+
+/* Links */
+
+/* Lists */
+
+.lists {
+  text-align: justify;
+}
+
+/* Quotes */
+
+.blockquote {
+  background: #eaeef2;
+  border: 1px solid #d9e0e8;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  position: relative;
+}
+
+.blockquote-author {
+  font-size: 0.8em;
+  margin: 0px;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.blockquote-border {
+  border-left-width: 10px;
+}
+
+.blockquote-text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.15em;
+}
+
+.blockquote img {
+  height: 100px;
+  width: 70px;
+  position: absolute;
+  left: 60px;
+  bottom: 3px;
+}
+
+/* Tables */
+
+table {
+  box-sizing: border-box;
+  margin: auto;
+  width: 600px;
+}
+
+th {
+  background-color: #eaeef2;
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+ padding: 5px;
+}
+
+/* Navbar */
+
+/* Bottom-Container */
 
 .c-footer {
   color: white;
@@ -161,4 +251,11 @@ figure {
   color: #d8e3e6;
   padding: 20px;
   text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #494e5e;
+  text-decoration: none;
+  padding: 50px 0 20px 0;
+  margin: 50px auto 0 auto;
 }
