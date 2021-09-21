@@ -176,7 +176,7 @@ figure {
   margin: auto;
   height: auto;
   max-width: 100%;
-  width: 50%;
+  width: 300px;
 }
 
 .reward-img {
@@ -390,15 +390,6 @@ th, td {
     margin: 30px auto;
   }
 
-  .comic-page {
-    margin: 0 auto;
-  }
-
-  .comic-page p {
-    margin: 5px auto;
-    width: 75%;
-  }
-
   .middle-container h2 {
     font-size: 24px;
     padding: 5px;
@@ -409,6 +400,19 @@ th, td {
     font-size: 20px;
     padding: 5px;
     margin: 0;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+
+  .comic-page {
+    margin: 0 auto;
+  }
+
+  .comic-page p {
+    margin: 5px auto;
+    width: 75%;
   }
 
   #greetings {
