@@ -62,7 +62,7 @@ hr {
   overflow: auto;
   padding: 0;
   position: relative;
-  height: 3%;
+  height: auto;
   width: 100%;
 }
 
@@ -372,12 +372,12 @@ th, td {
   .top-container h2 {
     font-size: 20px;
     padding: 5px;
-    margin: 8px 0;
+    margin: 0;
   }
 
   #my-navbar {
     font-size: 10px;
-    height: 4%;
+    height: auto;
     width: 100%;
   }
 
