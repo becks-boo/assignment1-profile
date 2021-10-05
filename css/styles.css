@@ -174,9 +174,10 @@ figure {
 .profile-pic {
   display: block;
   margin: auto;
-  height: auto;
+  height: 300px;
   max-width: 100%;
   width: 300px;
+  border-radius: 50%;
 }
 
 .reward-img {
@@ -240,7 +241,7 @@ figure {
 /* Lists */
 
 .comic-list {
-  text-align: center;
+  text-align: right;
   display: inline-block;
 }
 
@@ -403,7 +404,8 @@ th, td {
   }
 
   .profile-pic {
-    width: 50%;
+    width: 200px;
+    height: 200px;
   }
 
   .comic-page {
