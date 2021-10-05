@@ -251,6 +251,8 @@ figure {
   background: #eaeef2;
   border: 1px solid #d9e0e8;
   box-sizing: border-box;
+  box-shadow: 0 5px 25px 0
+              rgba(0,0,0, .25);
   margin: 0 auto 50px auto;
   max-width: 600px;
   padding: 30px 20px;
