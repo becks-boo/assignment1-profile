@@ -58,6 +58,10 @@ hr {
 
 #my-navbar {
   background-color: #3bafb2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
   margin: 0;
   overflow: auto;
   padding: 0;
@@ -68,6 +72,7 @@ hr {
 
 #my-navbar a {
   display: inline-block;
+  width: 15%;
   padding: 10px 0 10px 15px;
   text-align: center;
 }
