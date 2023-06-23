@@ -62,7 +62,7 @@ hr {
   overflow: auto;
   padding: 0;
   position: relative;
-  height: 3%;
+  height: auto;
   width: 100%;
 }
 
@@ -174,9 +174,10 @@ figure {
 .profile-pic {
   display: block;
   margin: auto;
-  height: auto;
+  height: 300px;
   max-width: 100%;
   width: 300px;
+  border-radius: 50%;
 }
 
 .reward-img {
@@ -240,7 +241,7 @@ figure {
 /* Lists */
 
 .comic-list {
-  text-align: center;
+  text-align: right;
   display: inline-block;
 }
 
@@ -250,6 +251,8 @@ figure {
   background: #eaeef2;
   border: 1px solid #d9e0e8;
   box-sizing: border-box;
+  box-shadow: 0 5px 25px 0
+              rgba(0,0,0, .25);
   margin: 0 auto 50px auto;
   max-width: 600px;
   padding: 30px 20px;
@@ -365,19 +368,19 @@ th, td {
   }
 
   .top-container h1 {
-    font-size: 44px;
-    margin: 30px auto 0 auto;
+    font-size: 36px;
+    margin: 45px auto 0 auto;
   }
 
   .top-container h2 {
-    font-size: 24px;
+    font-size: 20px;
     padding: 5px;
-    margin: 8px 0;
+    margin: 0;
   }
 
   #my-navbar {
     font-size: 10px;
-    height: 4%;
+    height: auto;
     width: 100%;
   }
 
@@ -403,7 +406,8 @@ th, td {
   }
 
   .profile-pic {
-    width: 50%;
+    width: 200px;
+    height: 200px;
   }
 
   .comic-page {
